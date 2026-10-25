@@ -2,7 +2,7 @@
 
 
 export default function Footer() {
-  // return (
-   
-  // )
+  return (
+   <h6>footer</h6>
+  )
 }

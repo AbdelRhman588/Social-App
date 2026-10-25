@@ -1,6 +1,6 @@
 
 import { FaFileImage } from "react-icons/fa";
-import {  IoIosSend } from "react-icons/io";
+import { IoCloseSharp, IoIosSend } from "react-icons/io";
 import { useRef, useState, type ChangeEvent } from "react";
 import axios from "axios";
 import { useMutation, useQueryClient } from "@tanstack/react-query";
