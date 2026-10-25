@@ -4,7 +4,6 @@ import type { PostType } from "../Types/Post.type";
 import Post from "../components/protectedRoute/Post/Post";
 import Loader from "../components/Loader/Loader";
 import { useQuery } from "@tanstack/react-query";
-import PostDetails from './PostDetails/PostDetails';
 import PostCreation from './../components/PostCreation/PostCreation';
 
 
@@ -31,7 +30,7 @@ export default function Home() {
     isLoading,
     isError,
     error,
-    isFetching,
+
   } = useQuery({
     queryKey: ["getAllPosts"],
     queryFn: GetAllPosts,

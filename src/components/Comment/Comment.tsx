@@ -1,5 +1,4 @@
 
-import React from "react";
 import type { CommentType } from "../../Types/Comment.type";
 
 
