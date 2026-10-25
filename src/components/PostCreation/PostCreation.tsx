@@ -1,6 +1,6 @@
 
 import { FaFileImage } from "react-icons/fa";
-import { IoCloseSharp, IoIosSend } from "react-icons/io";
+import { IoMdClose, IoIosSend } from "react-icons/io";
 import { useRef, useState, type ChangeEvent } from "react";
 import axios from "axios";
 import { useMutation, useQueryClient } from "@tanstack/react-query";
@@ -100,7 +100,7 @@ export default function PostCreation() {
             onClick={removeImage}
             className="absolute right-2 top-2 rounded-full bg-white p-1 text-blue-700 shadow"
           >
-            <IoCloseSharp className="size-6" />
+            <IoMdClose className="size-6" />
           </button>
         </div>
       )}
